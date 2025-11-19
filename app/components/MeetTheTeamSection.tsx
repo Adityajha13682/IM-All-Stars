@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 import Image from 'next/image';
 
 interface TeamMember {
@@ -34,7 +34,7 @@ export default function MeetTheTeamSection() {
   ];
 
   // Container animation
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -45,15 +45,18 @@ export default function MeetTheTeamSection() {
   };
 
   // Card animation
-  const cardVariants = {
-    hidden: { opacity: 0, y: 30 },
+  const cardVariants: Variants = {
+    hidden: { 
+      opacity: 0, 
+      y: 30,
+    },
     visible: {
       opacity: 1,
       y: 0,
       transition: {
         duration: 0.6,
         ease: 'easeOut',
-      },
+      } as const,
     },
   };
 
