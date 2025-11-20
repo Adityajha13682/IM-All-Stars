@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import AmbiLightVideo from './AmbiLightVideo';
+import CountdownTimer from './CountdownTimer';
 
 export default function CourseHero() {
   const [showContactModal, setShowContactModal] = useState(false);
@@ -149,6 +150,11 @@ export default function CourseHero() {
               >
                 Call For More Details
               </button>
+            </div>
+
+            {/* Countdown Timer */}
+            <div className="mt-4 sm:mt-5">
+              <CountdownTimer />
             </div>
 
             {/* Social Proof Badges */}
