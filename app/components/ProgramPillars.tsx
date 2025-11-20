@@ -7,7 +7,7 @@ const PROGRAM_PILLARS: PillarCard[] = [
   {
     id: 'problem-solving',
     title: 'Problem-solving labs',
-    description: 'Olympiad-level questions broken into exam-day shortcuts.',
+    description: 'JEE Mains questions broken into exam-day shortcuts.',
     iconType: 'target',
   },
   {

@@ -42,7 +42,7 @@ export default function CourseHero() {
 
               {/* Main Description */}
               <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
-                25 intense problem-solving sessions, mock tests, and ranker mentorship designed to push you towards <span className="font-semibold text-white">100/100 in JEE Mains Physics</span>.
+                20 intense problem-solving sessions, mock tests, and ranker mentorship designed to push you towards <span className="font-semibold text-white">100/100 in JEE Mains Physics</span>.
               </p>
             </div>
 

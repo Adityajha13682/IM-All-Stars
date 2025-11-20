@@ -11,7 +11,7 @@ type Feature = {
 const features: Feature[] = [
   {
     icon: "🔥",
-    title: "25 power problem-solving sessions",
+    title: "20 power problem-solving sessions",
     description:
       "Timed attempts plus full discussions on approach, shortcuts and examiner mindset for each question."
   },
