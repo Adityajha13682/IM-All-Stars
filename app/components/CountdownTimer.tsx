@@ -83,10 +83,10 @@ export default function CountdownTimer() {
     );
   }
 
-  // Active countdown
+  // Active countdown - compact pill style
   const timeUnits: Array<{ value: number; label: string }> = [
     { value: timeLeft.days, label: "Days" },
-    { value: timeLeft.hours, label: "Hours" },
+    { value: timeLeft.hours, label: "Hrs" },
     { value: timeLeft.minutes, label: "Mins" },
     { value: timeLeft.seconds, label: "Secs" },
   ];
@@ -97,20 +97,20 @@ export default function CountdownTimer() {
   };
 
   return (
-    <div className="inline-flex flex-col gap-2 rounded-2xl border border-violet-500/40 bg-slate-900/60 px-4 py-3 shadow-lg shadow-black/30 backdrop-blur-sm">
-      <span className="text-[11px] font-medium uppercase tracking-wide text-violet-300">
+    <div className="inline-flex flex-col rounded-2xl border border-violet-500/40 bg-slate-900/70 px-3 py-2 shadow-lg shadow-black/30 backdrop-blur-sm">
+      <span className="mb-1 text-[10px] font-medium uppercase tracking-wide text-violet-200">
         Enrollments close in
       </span>
       <div className="flex items-center gap-2 sm:gap-3">
         {timeUnits.map((unit, index) => (
           <div
             key={unit.label}
-            className="flex flex-col items-center justify-center rounded-xl bg-slate-950/80 px-2 py-1.5 sm:px-3 sm:py-2 min-w-[44px] sm:min-w-[52px]"
+            className="flex flex-col items-center justify-center rounded-xl bg-slate-950/80 px-2 py-1 sm:px-2.5 sm:py-1.5 min-w-[38px] sm:min-w-[44px]"
           >
             <span className="tabular-nums text-sm sm:text-base font-semibold text-white">
               {padValue(unit.value, index === 0)}
             </span>
-            <span className="mt-0.5 text-[10px] uppercase tracking-wide text-slate-400">
+            <span className="mt-0.5 text-[9px] uppercase tracking-wide text-slate-400">
               {unit.label}
             </span>
           </div>

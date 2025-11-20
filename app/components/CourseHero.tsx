@@ -131,8 +131,13 @@ export default function CourseHero() {
               This isn&apos;t about more lectures — it&apos;s about learning how toppers think inside the exam hall.
             </p>
 
+            {/* Countdown Timer */}
+            <div className="mt-4">
+              <CountdownTimer />
+            </div>
+
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 pt-2">
+            <div className="mt-4 flex flex-col sm:flex-row gap-4">
               <button 
                 onClick={() => {
                   const pricingSection = document.getElementById('pricing');
@@ -152,13 +157,8 @@ export default function CourseHero() {
               </button>
             </div>
 
-            {/* Countdown Timer */}
-            <div className="mt-4 sm:mt-5">
-              <CountdownTimer />
-            </div>
-
             {/* Social Proof Badges */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4 max-w-2xl">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8 max-w-2xl">
               {/* Badge 1 */}
               <div className="rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm p-4 space-y-1">
                 <p className="text-xs text-gray-400 font-medium">JEE Advanced 2025 Results</p>
