@@ -65,6 +65,10 @@ export default function CourseHero() {
                 Apply for IM-All Stars 2026
               </button>
               <button 
+                onClick={() => {
+                  alert('Our team is always here for you!\n\nPlease feel free to call anytime so that your doubts are answered.\n\nCall us at: +91 8585858585');
+                  window.location.href = 'tel:+918585858585';
+                }}
                 className="px-8 py-4 rounded-full text-base font-semibold text-white bg-transparent border-2 border-violet-500/50 hover:border-violet-400 hover:bg-violet-500/10 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:ring-offset-2 focus:ring-offset-[#0B0B10]"
               >
                 Call For More Details
