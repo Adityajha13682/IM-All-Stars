@@ -7,25 +7,25 @@ const PROGRAM_PILLARS: PillarCard[] = [
   {
     id: 'problem-solving',
     title: 'Problem-solving labs',
-    description: 'High-yield JEE Mains problems solved in a lab format, where we break patterns, build shortcuts, and train you to answer in under a minute per question.',
+    description: "High-yield JEE Mains problems solved in a lab format, where we break patterns, build shortcuts, and train you to answer in under a minute per question.",
     iconType: 'target',
   },
   {
     id: 'doubt-solving',
     title: 'Doubt-solving support',
-    description: 'Structured doubt support for every lecture and DPP so you're never stuck on a concept or problem when you sit down to practice.',
+    description: "Structured doubt support for every lecture and DPP so you're never stuck on a concept or problem when you sit down to practice.",
     iconType: 'lightbulb',
   },
   {
     id: 'guidance',
     title: 'Guidance & mentorship',
-    description: 'Exact study plans, attempt strategies, and ranker-style feedback on your progress so you always know what to do each week till the January attempt.',
+    description: "Exact study plans, attempt strategies, and ranker-style feedback on your progress so you always know what to do each week till the January attempt.",
     iconType: 'graduation',
   },
   {
     id: 'mocks',
     title: 'Mocks & discussions',
-    description: 'JEE Mains–pattern mocks with live discussions, detailed solutions, and performance analysis to fix weak spots and sharpen your exam-day temperament.',
+    description: "JEE Mains–pattern mocks with live discussions, detailed solutions, and performance analysis to fix weak spots and sharpen your exam-day temperament.",
     iconType: 'chart',
   },
 ];

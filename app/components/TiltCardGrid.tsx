@@ -136,22 +136,6 @@ function TiltCard({ card }: { card: PillarCard }) {
         <p className="text-[0.95rem] text-slate-300/80 leading-relaxed flex-grow">
           {card.description}
         </p>
-
-        {/* Divider */}
-        <div className="mt-6 pt-5 border-t border-white/5">
-          {/* CTA */}
-          <button className="flex items-center gap-2 text-sm text-slate-300 font-medium hover:text-slate-100 transition-colors duration-200 group/cta">
-            <span>See how this works</span>
-            <svg 
-              className="w-4 h-4 transform group-hover/cta:translate-x-1 transition-transform duration-200" 
-              fill="none" 
-              viewBox="0 0 24 24" 
-              stroke="currentColor"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </button>
-        </div>
       </div>
     </motion.div>
   );
