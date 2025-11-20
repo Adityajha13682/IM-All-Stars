@@ -28,7 +28,7 @@ export default function MeetTheTeamSection() {
     {
       name: 'Rajbir Chakraborty',
       role: 'IIT Madras - Data Science (AIR 336)',
-      bio: "Rajbir is a 2nd-year Data Science student at IIT Madras (AIR 336) and an IM-All Stars alumnus. He runs the Telegram community, leads weekly talk sessions, and helps students handle routine, stress, and preparation systems from the perspective of a recent ranker.",
+      bio: "Rajbir is a 2nd-year Data Science student at IIT Madras (AIR 336). He runs the Telegram community, leads weekly talk sessions, and helps students handle routine, stress, and preparation systems from the perspective of a recent ranker.",
       imageSrc: '/team/rajbir.jpeg',
     },
   ];
