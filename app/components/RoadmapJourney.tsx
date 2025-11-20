@@ -126,7 +126,7 @@ const PhaseChip: React.FC<PhaseChipProps> = ({ phase, isActive, onClick }) => (
 );
 
 export default function RoadmapJourney() {
-  const [expandedId, setExpandedId] = useState<number | null>(4); // Default to phase 4 as active
+  const [expandedId, setExpandedId] = useState<number | null>(1); // Default to phase 1 as active
 
   const toggleExpand = (id: number) => {
     setExpandedId(id);
