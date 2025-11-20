@@ -54,6 +54,12 @@ export default function CourseHero() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
               <button 
+                onClick={() => {
+                  const pricingSection = document.getElementById('pricing');
+                  if (pricingSection) {
+                    pricingSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                  }
+                }}
                 className="group px-8 py-4 rounded-full text-base font-semibold text-white bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500 transition-all duration-200 hover:scale-105 hover:shadow-lg hover:shadow-violet-500/50 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:ring-offset-2 focus:ring-offset-[#0B0B10]"
               >
                 Apply for IM-All Stars 2026
