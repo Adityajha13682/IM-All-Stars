@@ -67,7 +67,7 @@ export default function CourseHero() {
               <button 
                 className="px-8 py-4 rounded-full text-base font-semibold text-white bg-transparent border-2 border-violet-500/50 hover:border-violet-400 hover:bg-violet-500/10 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:ring-offset-2 focus:ring-offset-[#0B0B10]"
               >
-                View Course Highlights
+                Call For More Details
               </button>
             </div>
 
