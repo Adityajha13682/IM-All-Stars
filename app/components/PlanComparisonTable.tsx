@@ -114,7 +114,7 @@ export default function PlanComparisonTable() {
       id: 'telegram-community',
       name: 'Telegram doubt community',
       category: 'support',
-      standardIncluded: true,
+      standardIncluded: false,
       eliteIncluded: true,
     },
     {
