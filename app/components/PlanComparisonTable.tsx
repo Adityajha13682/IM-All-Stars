@@ -314,13 +314,13 @@ export default function PlanComparisonTable() {
           {/* Bottom CTA (optional) */}
           <div className="mt-8 pt-6 border-t border-white/10 flex flex-col sm:flex-row justify-center gap-4">
             <button 
-              onClick={() => window.open('https://unacademy.com/goal/jee-main-and-advanced-preparation/TMUVD/subscribe/DN9KWV6LSS?referral_code=INVIMECH', '_blank')}
+              onClick={() => window.open('https://unacademy.onelink.me/M2BR/4wvyshbo', '_blank')}
               className="px-8 py-3 rounded-full text-base font-semibold text-white bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500 transition-all duration-200 hover:scale-105 hover:shadow-lg hover:shadow-violet-500/50 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:ring-offset-2 focus:ring-offset-[#020617]"
             >
               Get Elite Plan
             </button>
             <button 
-              onClick={() => window.open('https://unacademy.com/goal/jee-main-and-advanced-preparation/TMUVD/subscribe/V08OS8CQWV?referral_code=INVIMECH', '_blank')}
+              onClick={() => window.open('https://unacademy.onelink.me/M2BR/jwhcvavq', '_blank')}
               className="px-8 py-3 rounded-full text-base font-semibold text-white bg-transparent border-2 border-white/20 hover:border-white/40 hover:bg-white/5 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-white/50 focus:ring-offset-2 focus:ring-offset-[#020617]"
             >
               Get Standard Plan
